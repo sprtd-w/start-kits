@@ -14,16 +14,4 @@ class Logger {
     }
 }
 
-class LoggerSingleton {
-    constructor() {
-        if (!LoggerSingleton.instance) {
-            LoggerSingleton.instance = new Logger();
-        }
-    }
-
-    getInstance() {
-        return LoggerSingleton.instance;
-    }
-}
-
-module.exports = LoggerSingleton;
+module.exports = new Logger();

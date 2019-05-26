@@ -1,9 +1,6 @@
-var Logger = require('./helpers/Logger');
+var logger = require('./helpers/Logger');
 var Shopper = require('./roles/Shopper');
 var Store = require('./roles/Store');
-
-var logger = new Logger().getInstance();
-console.log(logger);
 
 logger.log('app: started');
 
