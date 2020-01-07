@@ -1,0 +1,15 @@
+.search-city-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+.city-control {
+    margin: 5px;
+    padding: 10px;
+}
+
+.highlighted {
+    background: yellow;
+}

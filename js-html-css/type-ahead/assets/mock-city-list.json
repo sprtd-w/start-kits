@@ -1,0 +1,102 @@
+[
+  {
+    "_id": "5e14d8d74b0daa79ff52734a",
+    "index": 0,
+    "guid": "ee939524-ae1f-489d-b611-552a07e20ff2",
+    "city": "adipisicing",
+    "conutry": "nostrud",
+    "population": "$237,253.68",
+    "picture": "http://placehold.it/32x32",
+    "latitude": 54.639291,
+    "longitude": -46.759354,
+    "tags": [
+      "occaecat",
+      "ut",
+      "laboris",
+      "proident",
+      "veniam",
+      "non",
+      "aute"
+    ]
+  },
+  {
+    "_id": "5e14d8d7af21bf7a94f39a1a",
+    "index": 1,
+    "guid": "8d2d5336-34b8-438f-8dd3-48336ba04bb2",
+    "city": "tempor",
+    "conutry": "pariatur velit",
+    "population": "$387,109.24",
+    "picture": "http://placehold.it/32x32",
+    "latitude": -85.205747,
+    "longitude": -73.813331,
+    "tags": [
+      "nisi",
+      "est",
+      "occaecat",
+      "ullamco",
+      "id",
+      "velit",
+      "commodo"
+    ]
+  },
+  {
+    "_id": "5e14d8d70035747e7c18b194",
+    "index": 2,
+    "guid": "ab5e35db-7cf6-469d-951c-89f8cefc773a",
+    "city": "dolore cupidatat",
+    "conutry": "nisi",
+    "population": "$168,852.44",
+    "picture": "http://placehold.it/32x32",
+    "latitude": -41.240699,
+    "longitude": 130.231332,
+    "tags": [
+      "enim",
+      "nulla",
+      "dolore",
+      "anim",
+      "Lorem",
+      "nostrud",
+      "mollit"
+    ]
+  },
+  {
+    "_id": "5e14d8d7f06d9b2ab9487d8d",
+    "index": 3,
+    "guid": "e17ea42a-3ce1-4a62-979a-207f4bdb0834",
+    "city": "cupidatat",
+    "conutry": "fugiat quis",
+    "population": "$302,005.23",
+    "picture": "http://placehold.it/32x32",
+    "latitude": -39.534894,
+    "longitude": -60.727781,
+    "tags": [
+      "est",
+      "sit",
+      "dolore",
+      "consequat",
+      "consequat",
+      "aliqua",
+      "do"
+    ]
+  },
+  {
+    "_id": "5e14d8d759b56d88d0075f8b",
+    "index": 4,
+    "guid": "7f4225b9-56b5-48af-befa-d4b48e373cd1",
+    "city": "aute",
+    "conutry": "nostrud laboris",
+    "population": "$5,170.98",
+    "picture": "http://placehold.it/32x32",
+    "latitude": -83.418157,
+    "longitude": -170.550686,
+    "tags": [
+      "voluptate",
+      "do",
+      "duis",
+      "ut",
+      "consequat",
+      "enim",
+      "eiusmod"
+    ]
+  }
+]
