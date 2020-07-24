@@ -1,0 +1,122 @@
+html, body {
+    height: 100%;
+}
+
+body {
+    margin: 0;
+    background: linear-gradient(#0d1829, #44295d);
+}
+
+.moon {
+    --glow-color: #ffe684;
+    position: relative;
+    display: inline-block;
+    top: 10%;
+    left: 10%;
+    width: 100px;
+    height: 100px;
+
+    border-radius: 50%;
+    background: #ffefbb;
+    box-shadow: inset -5px -2px 0 4px var(--glow-color),
+    0 0 15px 0 var(--glow-color),
+    0 0 60px 0 var(--glow-color),
+    0 0 500px 0 var(--glow-color);
+}
+
+.pit {
+    position: absolute;
+    background: #ffe0a8;
+    border-radius: 50%;
+    box-shadow: inset 1px 1px 0 1px #fbc992;
+}
+
+.pit1 {
+    width: 25px;
+    height: 25px;
+    top: 57%;
+    left: 30%;
+}
+
+.pit2 {
+    width: 16px;
+    height: 16px;
+    top: 30%;
+    left: 23%;
+}
+
+.pit3 {
+    width: 12px;
+    height: 12px;
+    top: 50%;
+    left: 14%;
+}
+
+.pit-decorative {
+    width: 17px;
+    height: 17px;
+    top: 35%;
+    left: 30%;
+    box-shadow: none;
+    background:rgba(255, 156, 7, 0.12);
+}
+
+.ground {
+    --bg-color: #261d2d;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    height: 5%;
+    background: var( --bg-color);
+    z-index: 100;
+}
+
+.ground-rock {
+    position: absolute;
+    height: 50%;
+    background: var( --bg-color);
+    border-radius: 20px;
+    transform: skewX(10deg)
+}
+
+.ground-rock1 {
+    width: 10%;
+    top: -20%;
+    left: 10%;
+    transform: skewX(10deg);
+}
+
+.ground-rock2 {
+    width: 15%;
+    top: -20%;
+    right: 25%;
+    transform: rotateZ(10deg) skewX(9deg);
+}
+
+.ground-rock3 {
+    width: 5%;
+    top: -15%;
+    right: 38%;
+    transform: rotateZ(-15deg);
+}
+
+.star {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    border-radius: 50%;
+    animation-iteration-count: infinite;
+}
+
+@keyframes spark {
+    0% {
+        opacity: 1;
+    }
+    50% {
+        opacity: 0.3;
+    }
+    100% {
+        opacity: 1;
+    }
+}
