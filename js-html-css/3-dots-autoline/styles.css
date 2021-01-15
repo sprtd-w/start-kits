@@ -1,0 +1,28 @@
+.text-container {
+    position: relative;
+    width: 30%;
+    max-height: calc(4em + 5px);
+    overflow: hidden;
+    white-space: normal;
+}
+
+.text {
+    position: relative;
+    max-height: 4.22em;
+    padding-right: 5px;
+    text-align: justify;
+    font-weight: 500;
+    line-height: 1.4em;
+    font-size: 15px;
+    color: #261d2d;
+    overflow: hidden;
+}
+
+.dots {
+    position: absolute;
+    right: 0;
+    top: calc(7em - 100%);
+    text-align: left;
+    font-size: 15px;
+    background: white;
+}
